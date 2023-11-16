@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+
+
+        <title>Kimiko Yanagisawa</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="imgs/plusicon.png">
+
+        <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="js/anime.min.js"></script>
+        <!--        <script src="js/preload.js"></script>-->
+    </head>
+
+    <body>
+
+
+        <nav>
+
+<!-- HOME BUTTON TOP LEFT-->
+           
+            <div class="khj">
+                <a href="index.html" class="khjbutton"><h1>Kimiko Yanagisawa</h1></a>
+                <h2 id="khj">Writing &amp; Poetry</h2>
+            </div>
+
+<!--           NAV LINKS -->
+            <div class="links">
+
+                <a href="Sketches.html"><h2 id="button1">ABOUT ME</h2></a>
+                <a href="Essays.html"><h2 id="button2">ESSAYS</h2></a>
+                <a href="https://www.instagram.com/kimikowrites/" target="_blank"><h2 id="button3">POEMS</h2 ></a>
+
+            </div>
+            <section class="cities">
+
+                <div class="clock">
+                    <h1>LA</h1>
+                    <analog-clock dark></analog-clock>
+                </div>
+                <div class="clock">
+                    <h1>HAWAII</h1>
+                    <analog-clock offset="-5" dark></analog-clock>
+                </div>
+                <div class="clock">
+                    <h1>SPAIN</h1>
+                    <analog-clock offset="0" dark></analog-clock>
+                </div>
+            </section>
+
+        </nav>
+
+        <div class="mobilenav">
+            <div class="mobilekhj">
+                <a href="index.html" class="khjbutton"><h1>Kimiko Yanagisawa</h1></a>
+
+                <img  class="globeicon" src="https://culturenojhome.files.wordpress.com/2019/04/earth-icon.gif?w=200"><h2 id="mobilekhj">eric joo</h2>
+            </div>
+
+            <div class="links">
+
+                <a href="Sketches.html"><h2>DRAWINGS</h2></a>
+                <a href="Posters.html"><h2>POSTERS</h2></a>
+                <a href=""><h2>ABOUT ME</h2></a>
+
+            </div>
+
+
+            <div class="plus">
+                <h1><span onclick="openNav()">+</span></h1>
+            </div>
+
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><h1>x</h1></a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <div class="whitekhj">
+                        <a href="index.html" class="khjbutton"><h1 id="whitekhj">home</h1></a>
+                    </div>
+                    <br>
+
+                    <a href="Sketches.html">Drawings</a>
+                    <a href="JM.html">Jewish Museum NYC</a>
+                    <a href="OHT.html">OHT NYC</a>
+                    <a href="CC.html">Crack Couture</a>
+                    <a href="SVA.html">SVA-VCS</a>
+                    <a href="AG.html">Arlette Geller</a>
+                    <a href="EXE.html">Digital Time Capsule</a>
+                    <a href="VG.html">Virtual Gallery</a>
+                    <a href="Posters.html">Posters</a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="container">
+
+            <a href="ArtOfConsumption.html" class="Sketchbutton">
+                <div class="card">
+                    <img src="imgs/bigrockalone.jpg">
+                </div>
+            </a>
+            <div class="hiddencontainer Sketch">
+                <img src="imgs/banner_mobile.jpeg">
+                <h3>The Art of Constant Consumption: How Greed Feeds Consumption, Aids in Diminishment and Fuels the Fashion Industry<br></h3>
+            </div>
+
+            <a href="JM.html" class="extrasbutton">
+                <div class="card">
+                    <img src="images/02.png">
+                </div>
+            </a>
+            <div class="hiddencontainer extras">
+                <img src="imgs/jmicon.png">
+                <h3>Jewish Museum NYC<br>NYJFF, PURIM BALL</h3>
+            </div>
+
+            <a href="SVA.html" class="SVAbutton">
+                <div class="card">
+                    <img src="images/03.png" style="width:40%; height:40%;">
+                </div>
+            </a>
+            <div class="hiddencontainer SVA">
+                <img src="imgs/svaexample.png">
+                <h3>SVA online art show<br></h3>
+            </div>
+
+            <a href="OHT.html" class="OHTbutton">
+                <div class="card">
+                    <img src="images/04.png" style="width:40%; height:40%;">
+                </div>
+            </a>
+            <div class="hiddencontainer OHT">
+                <img src="imgs/OHTphoto.jpeg" style="width:80%; height:80%;">
+                <!--                <h3>OHT e-commerce website<br>Under Construction</h3>-->
+                <h3>OHT e-commerce website<br></h3>
+            </div>
+
+
+            <a href="CC.html" class="CCbutton">
+                <div class="card">
+                    <img src="images/05.png">
+                </div>
+            </a>
+            <div class="hiddencontainer CC">
+                <img src="images/CCBottle.gif">
+                <h3>CC e-commerce graphics<br></h3>
+            </div>
+
+
+            <a href="AG.html" class="AGbutton">
+                <div class="card">
+                    <img src="images/06.png">
+                </div>
+            </a>
+            <div class="hiddencontainer AG">
+                <img src="imgs/agicon2.png">
+                <h3>Arlette Geller biomedical engineering<br></h3>
+            </div>
+
+
+
+
+
+            <a href="https://joo-k.github.io/KHJDOTEXE/" class="TCbutton">
+                <div class="card">
+                    <img src="images/07.png">
+                </div>
+            </a>
+            <div class="hiddencontainer TC">
+                <img src="images/TCLogo2.jpg">
+                <h3>Digital time capsule<br></h3>
+            </div>
+
+            <a href="VG.html" class="TCbutton">
+                <div class="card">
+                    <img src="images/08.png">
+                </div>
+            </a>
+            <div class="hiddencontainer TC">
+                <img src="images/DELogo2.jpg">
+                <h3>Virtual 3D gallery<br></h3>
+            </div>
+
+            <a href="Posters.html" class="Posterbutton">
+                <div class="card">
+                    <img src="images/09.png">
+                </div>
+            </a>
+            <div class="hiddencontainer Poster">
+                <img src="imgs/posterexample.jpg">
+                <h3>Posters dump<br></h3>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="notcontainer">
+            <div class="notcard"></div>
+            <div class="notcard"></div>
+            <div class="notcard"></div>
+        </div>
+
+
+        <script type="module" src="js/clock.js"></script>
+
+
+
+        <!-- tilt.js -->
+        <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+        <script type="text/javascript">
+
+            // CHANGES
+            var card = document.querySelectorAll(".card")
+            for (var i = 0; i < card.length; i++) {
+                card[i].setAttribute("data-tilt", "");
+                card[i].setAttribute("data-tilt-reset", "false");
+            }
+
+            VanillaTilt.init(card, {
+                reverse: true,
+                max: 30,
+                startX: -0,
+                startY: -0,
+                speed: 5000,
+
+                scale: 1.010,
+                transition: true,
+                gyroscope: true,
+                gyroscopeMaxAngleX: 20,
+                gyroscopeMinAngleX: -20
+            });
+        </script>
+
+        <script>
+            // Reset VanillaTilt
+
+            timeOut = 500; // delay in milliseconds
+
+            $(".container").mouseleave(function () {
+                setTimeout(function() {
+                    var card = document.querySelectorAll(".card")
+                    for (var i = 0; i < card.length; i++) {
+                        card[i].vanillaTilt.destroy();
+                    }
+                    VanillaTilt.init(card, {
+                        reverse: true,
+                        max: 30,
+                        startX: 0,
+                        startY: 0,
+                        speed: 5000,
+                        scale: 1.010,
+                        transition: true,
+                        gyroscope: true,
+                        gyroscopeMaxAngleX: 20,
+                        gyroscopeMinAngleX: -20
+                    });
+                }, timeOut);
+            })
+
+        </script>
+
+        <!--  Typewriter.js  -->
+        <script>
+            var app = document.getElementById('khj');
+
+            var typewriter = new Typewriter(app, {
+                loop: true,
+                delay: 75,
+            });
+
+            typewriter
+                .typeString('作家とクリエイター')
+                .pauseFor(2500)
+                .deleteChars(20)
+                .typeString('Writer & Creator')
+                .pauseFor(2500)
+                .deleteChars(20)
+                .start();
+        </script>
+
+        <script>
+            var app = document.getElementById('mobilekhj');
+
+            var typewriter = new Typewriter(app, {
+                loop: true,
+                delay: 75,
+            });
+
+            typewriter
+                .typeString('作家とクリエイター')
+                .pauseFor(2500)
+                .deleteChars(20)
+                .typeString('Writer & Creator')
+                .pauseFor(2500)
+                .deleteChars(20)
+                .start();
+        </script>
+
+        <script>
+            var slider = document.getElementById("slider");
+            var output = document.getElementById("demo");
+
+            output.innerHTML = slider.value; // Display the default slider value
+            sliderHandler.apply(slider); // Initialize link's value by calling the handler
+
+            // Update the current slider value (each time you drag the slider handle)
+            slider.oninput = sliderHandler;
+            function sliderHandler() {
+                output.innerHTML = this.value;
+
+                if(this.value==1)
+                    $("#scrollimg-container1").css({'display':'block'});
+                else if(this.value!=1)
+                    $("#scrollimg-container1").css({'display':'none'});
+
+                if(this.value==2)
+                    $("#scrollimg-container2").css({'display':'block'});
+                else if(this.value!=2)
+                    $("#scrollimg-container2").css({'display':'none'});
+
+                if(this.value==3)
+                    $("#scrollimg-container3").css({'display':'block'});
+                else if(this.value!=3)
+                    $("#scrollimg-container3").css({'display':'none'});
+
+                if(this.value==4)
+                    $("#scrollimg-container4").css({'display':'block'});
+                else if(this.value!=4)
+                    $("#scrollimg-container4").css({'display':'none'});
+
+                if(this.value==5)
+                    $("#scrollimg-container5").css({'display':'block'});
+                else if(this.value!=5)
+                    $("#scrollimg-container5").css({'display':'none'});
+
+                if(this.value==6)
+                    $("#scrollimg-container6").css({'display':'block'});
+                else if(this.value!=6)
+                    $("#scrollimg-container6").css({'display':'none'});
+
+                if(this.value==7)
+                    $("#scrollimg-container7").css({'display':'block'});
+                else if(this.value!=7)
+                    $("#scrollimg-container7").css({'display':'none'});
+
+                if(this.value==8)
+                    $("#scrollimg-container8").css({'display':'block'});
+                else if(this.value!=8)
+                    $("#scrollimg-container8").css({'display':'none'});
+
+                if(this.value==9)
+                    $("#scrollimg-container9").css({'display':'block'});
+                else if(this.value!=9)
+                    $("#scrollimg-container9").css({'display':'none'});
+
+            }
+
+        </script>
+
+        <script>
+            /* Open */
+            function openNav() {
+                document.getElementById("myNav").style.display = "block";
+            }
+
+            /* Close */
+            function closeNav() {
+                document.getElementById("myNav").style.display = "none";
+            }
+        </script>
+
+        <!--
+<div class="formcontainer">
+<form action="action_page.php">
+
+<label for="name"></label>
+<input type="text" id="name" name="name" placeholder="Name">
+
+<label for="subject"></label>
+<textarea type="text" id="subject" name="subject" placeholder="Questions?                         Leave a message" style="height:150px"></textarea>
+
+<button type="submit" name="Submit"></button>
+</form>
+</div>
+-->
+    </body>
+
+</html>
